@@ -1,6 +1,6 @@
 import React from 'react'
 
-function UserMessage(props) {
+function MethodsAsPropsChild(props) {
     return (
         <div>
             {
@@ -12,13 +12,17 @@ function UserMessage(props) {
                             <li>Complete your profile</li>
                             <li>Subscribe to the newsletter</li>
                         </ol>
+                        <button onClick={props.handleLoginLogout}>Sign Out</button>
                     </div>
                 ) : (
+                    <div>
                     <p>Please sign in</p>
+                    <button onClick={props.handleLoginLogout}>Sign in</button>
+                    </div>
                 )
             }
         </div>
     )
 }
 
-export default UserMessage
+export default MethodsAsPropsChild
