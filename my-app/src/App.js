@@ -1,9 +1,10 @@
 import "./App.css";
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import RenderingLists from "./components/RenderingLists";
+import Book from './components/Book'
 
 function App() {
   return <div className="App">
-      <MethodsAsPropsParent />
+      <RenderingLists />
   </div>;
 }
 
