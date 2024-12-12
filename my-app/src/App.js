@@ -1,10 +1,9 @@
 import "./App.css";
-import RenderingLists from "./components/RenderingLists";
-import Book from './components/Book'
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
   return <div className="App">
-      <RenderingLists />
+      <LifeCyclesCDM />
   </div>;
 }
 
