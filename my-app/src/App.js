@@ -1,5 +1,5 @@
 import "./App.css";
-import ControlledForm from "./components/ControlledForm";
+import ControlledForm from "./components/UncontrolledForm";
 
 function App() {
   return <div className="App">
